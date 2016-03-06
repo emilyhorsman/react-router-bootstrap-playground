@@ -1,1 +1,9 @@
 @import "bootstrap/scss/bootstrap";
+
+body {
+  padding-top: $spacer;
+}
+
+.navbar {
+  margin-bottom: $spacer;
+}

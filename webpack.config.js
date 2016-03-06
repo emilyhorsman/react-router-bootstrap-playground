@@ -66,7 +66,8 @@ if (TARGET === 'start') {
       /* --hot --inline in package.json */
       contentBase: __dirname + '/build',
       progress: true,
-      host: '0.0.0.0'
+      host: '0.0.0.0',
+      historyApiFallback: true
     }
   });
 }
